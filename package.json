@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.5.14",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "postcss-loader": "^4.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
